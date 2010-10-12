@@ -6,7 +6,7 @@ A demonstration of [Candor CMS](http://github.com/fhd/candor-cms).
 Concepts
 --------
 
-A Candor CMS website consists of pages, snippets and articles. The
+A Candor CMS website consists of pages, templates and articles. The
 system is completely file-based, so each of these are simple files
 placed in respectively named directories.
 
@@ -17,18 +17,18 @@ website, each mapping to a different URL. These files can either be
 requested by their full name (e.g. http://example.org/index.html) or
 by their basename (e.g. http://example.org/index).
 
-### Snippets
+### Templates
 
 *Not yet implemented.*
 
-Snippets will provide a way to reuse code among pages using a templating system.
+Templates will provide a way to reuse code among pages.
 
 ### Articles
 
 *Not yet implemented.*
 
-While pages and snippets are for technical purposes, articles will
-hold the actual content of the website. Pages and snippets will be
+While pages and templates fulfil technical purposes, articles will
+hold the actual content of the website. Pages and templates will be
 able to list and display articles.
 
 Running the Demo
