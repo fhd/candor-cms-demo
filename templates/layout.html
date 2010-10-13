@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>{{title}}</title>
+    </head>
+    <body>
+        <h1>Candor CMS Demo</h1>
+        <ul>
+            {{#pages}}
+            <li><a href="{{url}}">{{title}}</a></li>
+            {{/pages}}
+        </ul>
+        {{{content}}}
+    </body>
+</html>
