@@ -4,5 +4,8 @@ template=layout
 -->
 <p>This is the home page.</p>
 {{#articles}}
-{{{content}}}
+<div>
+<a href="{{url}}"><h2>{{title}}</h2></a>
+<div>{{{content}}}</div>
+</div>
 {{/articles}}
